@@ -1,0 +1,794 @@
+/*===============================
+Template Name: Home Index Template 
+Author: Naimur Zaman Sunny
+Author URI: www.alln.com
+Version: 1.0
+===============================*/    
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	//font-family: 'Rokkitt', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*****===== | Header_area Start | =====*****/
+.header_area{
+	width:100%;
+	height:100px;
+	background-color:#f6bd56;
+}
+.header_inner{
+	position:relative;
+	width:413px;
+    height:100px;
+    background-color:#fff;
+}
+.header_inner:after{
+	content:"";
+	position:absolute;
+	top:0;
+	right:-21px;
+	width:38px;
+	height:100px;
+	background-color:#fff;
+	transform:skewX(-19deg);
+}
+/**++++++++++++++ 1st Row ++++++++++++++**/
+.coloum3{
+	width:33%;
+	float:left;
+}
+.header_pomo1{
+    width:30%;
+    float:left;
+}
+.header_text1{
+    width:70%;
+    float:left;
+}
+.header_pomo1 img {
+    padding: 12px 20px 0 22%;
+}
+.header_text1 > h1 {
+    margin: 18px 0px 0px 57px;
+    font-size:35px;
+    color:#feb63b;
+}
+.header_text1 > span {
+    display: block;
+    font-size: 16.68px;
+    margin-left:33px;
+    text-transform:uppercase;
+    font-weight:700;
+}
+/**++++++++++++++ 1st Row ++++++++++++++**/
+/**++++++++++++++ 2nd Row ++++++| Menu Area Start |++++++++**/
+.coloum3_1{
+	width:45%;
+	float:left;
+	display:block;
+}
+.mainmenu{
+	position:relative;
+}
+.mainmenu ul{
+	margin:0;
+	padding:39px 0px 43px 20px;
+}
+.mainmenu ul li{
+	display:inline-block;
+	list-style:none;
+}
+.mainmenu ul li a{
+	display:block;
+	padding-left:15px;
+	font-size:15px;
+	color:#000;
+}
+.mainmenu ul li a:hover{
+	text-decoration:none;
+}
+.mainmenu span{
+	background: #da9f34 none repeat scroll 0 0;
+	height: 4px;
+	left: 5.5%;
+	position: absolute;
+	top: 91.5%;
+	width: 77px;
+}
+.mainmenu span:after{
+	content:"";
+	position:absolute;
+	width:0;
+	height:0;
+	top:-20px;
+	left:27px;
+	border-bottom:10px solid #da9f34;
+	border-top:10px solid transparent;
+	border-left:10px solid transparent;
+	border-right:10px solid transparent;
+}
+ul li.active:nth-child(1) ~ span,
+ul li.inactive:nth-child(1):hover ~ span{
+	left: 5%;
+}
+ul li.active:nth-child(2) ~ span,
+ul li.inactive:nth-child(2):hover ~ span {
+	left: 20.5%;
+}
+
+ul li.active:nth-child(3) ~ span,
+ul li.inactive:nth-child(3):hover ~ span {
+	left: 38%;
+	//width:107px;
+}
+
+ul li.active:nth-child(4) ~ span,
+ul li.inactive:nth-child(4):hover ~ span {
+	left: 61.5%;
+	//width:137px;
+}
+ul li.active:nth-child(5) ~ span,
+ul li.inactive:nth-child(5):hover ~ span {
+	left: 84%;
+	//width: 95px;
+}
+ul li, span {
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+	position: relative;
+}
+
+
+/**++++++++++++++ 2nd Row +++++++| Menu Area End |+++++++**/
+/**++++++++++++++ 3rd Row ++++++++++++++**/
+.contact_logo {
+	display: block;
+	float: left;
+}
+.contact_logo.textarea > h1{
+	margin-top:0px;
+}
+.contact_logo.textarea > p{
+	font-size: 15px;
+	margin:0px;
+	padding-top:20px;
+}
+.contact_logo .fa.fa-mobile {
+	position:relative;
+	font-size:74px;
+	color:#000;
+	padding-top:12px;
+	padding-left:17px;
+}
+.contact_logo.textarea > h1{
+	font-size: 27px;
+}
+.contact_logo.textarea {
+	margin-left: 10px;
+}
+.textarea{
+	position:relative;
+}
+.textarea:after{
+	content:"";
+	position: absolute;
+	top:15px;
+	left:-58px;
+	height:64px;
+	width:2px;
+	background-color:#fed68e;
+}
+.textarea:before{
+	content:"";
+	position: absolute;
+	top:15px;
+	left:-59px;
+	height:64px;
+	width:2px;
+	background-color:#dd9f30;
+}
+.coloum3_2{
+	width:20%;
+	float:left;
+	display:block;
+}
+/*****===== | Header_area End | =====*****/
+
+/*****===== | banner_pomo_area Start | =====*****/
+.banner_inner{
+    position:relative;
+    background:url('images/Slider.png') no-repeat;
+    background-size:cover;
+    width:100%;
+    height:725px;
+    border-bottom:2px solid #acacac;
+}
+.banner_pomo{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(255,255,255,0.7);
+}
+.banner_textarea{
+    text-align:center;
+}
+.banner_textarea h1{
+    padding:183px 0px 0px;
+    font-size:65px;
+}
+.banner_textarea p{
+    margin:41px 0px 0px;
+    font-size:30px;
+}
+
+.banner_btn{
+    text-align:center;
+    display:block;
+    margin-top:57px;
+}
+/** 1st Buttom Start **/
+.banner_btn ul{
+    margin:0px;
+    padding:0;
+}
+.banner_btn ul li{
+    list-style:none;
+    display:inline-block;
+}
+.banner_btn ul li a{
+    position: relative;
+    margin-right:12px;
+    display:block;
+    color:#fff;
+    width:242px;
+    height:50px;
+    background-color:#195ba9;
+    line-height:50px;
+    text-align:center;
+    font-weight:500;
+}
+.banner_btn ul li a:after{
+    background: #195ba9 none repeat scroll 0 0;
+    content: "";
+    height: 50px;
+    left: 234px;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    transform: skewX(-15deg);
+    width: 15px;
+}
+/** 1st Buttom End **/
+/** 1st+2nd Buttom Both style **/
+.custom_img2 > img {
+    height: 14px;
+    width: 20px;
+}
+.custom_img2 {
+    background: #569ff6 none repeat scroll 0 0;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+    width: 33px;
+}
+.custom_img2::after {
+    background: #569ff6 none repeat scroll 0 0;
+    content: "";
+    height: 50px;
+    left: -7px;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transform: skewX(-15deg);
+    width: 14px;
+}
+.banner_btn ul li a:hover{
+    text-decoration:none;
+}
+/** 1st+2nd Buttom Both style **/
+
+
+/*****===== | banner_pomo_area Start | =====*****/
+
+/*****===== | freedesign_area Start | =====*****/
+.freedesign_pomo{
+    background:url('images/contact_email.png') no-repeat;
+    width:100%;
+    height:238px;
+    background-size:cover;
+}
+.freedesign_textarea{
+    text-align:center;
+}
+.freedesign_textarea h1{
+    font-size:30px;
+}
+.freedesign_textarea p{
+    margin-bottom:26px;
+}
+.form-control-custom{
+    width:256px;
+    height:38px;
+    border:none;
+    padding:0px 10px;
+}
+.freedesign_inner{
+    text-align:center;
+}
+.email_area{
+    display:block;
+    overflow:hidden;
+}
+.tart_btn{
+    margin-top:8px;
+}
+
+/** 1st Buttom Start **/
+.tart_btn ul{
+    margin:0px;
+    padding:0;
+}
+.tart_btn ul li{
+    list-style:none;
+    display:inline-block;
+}
+.tart_btn ul li a{
+    position: relative;
+    margin-right:12px;
+    display:block;
+    color:#000;
+    width:240px;
+    height:50px;
+    background-color:#f6bd56;
+    line-height:50px;
+    text-align:center;
+    font-weight:500;
+}
+.tart_btn ul li a:after{
+    background: #f6bd56 none repeat scroll 0 0;
+    content: "";
+    height: 50px;
+    left: 233px;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    transform: skewX(-15deg);
+    width: 15px;
+}
+/** 1st Buttom End **/
+/** 1st+2nd Buttom Both style **/
+.custom_img1 > img {
+    height: 14px;
+    width: 20px;
+}
+.custom_img1 {
+    background: #da9f34 none repeat scroll 0 0;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+    width: 33px;
+}
+.custom_img1::after {
+    background: #da9f34 none repeat scroll 0 0;
+    content: "";
+    height: 50px;
+    left: -6px;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transform: skewX(-15deg);
+    width: 13px;
+}
+.tart_btn ul li a:hover{
+    text-decoration:none;
+}
+/** 1st+2nd Buttom Both style **/
+/*****===== | freedesign_area End | =====*****/
+
+/*****===== | project_area Start | =====*****/
+.coloum2{
+    width:50%;
+    float:left;
+}
+.coloum2 img{
+    width:100%;
+}
+.custom_leftposition,
+.custom_rightposition
+{
+    position:relative;
+}
+.project_textarea,
+.project_textarea1
+{
+    position:absolute;
+    bottom:15px;
+    left:24%;
+    color:#fff;
+}
+.project_textarea h1,
+.project_textarea1 h1
+{
+    margin:0px 0px 5px;
+    font-size:30px;
+}
+.project_textarea p,
+.project_textarea1 p
+{
+    margin:0px 0px 25px;
+    font-size:18px;
+}
+/**=====>>>>> Creative Buttom Effect Start <<<<<=====**/
+/** 1st Buttom Start **/
+.project_textarea ul{
+    margin:0;
+    padding:0;
+}
+.project_textarea ul li{
+    list-style:none;
+    display:inline-block;
+}
+.project_textarea ul li a{
+    position: relative;
+    margin-right:14px;
+    display:block;
+    color:#fff;
+    width:176px;
+    height:44px;
+    background-color:#195ba9;
+    line-height:44px;
+    text-align:center;
+}
+.project_textarea ul li a:after{
+    background: #195ba9 none repeat scroll 0 0;
+    content: "";
+    height: 44px;
+    left: 170px;
+    line-height: 44px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    transform: skewX(-15deg);
+    width: 15px;
+}
+/** 1st Buttom End **/
+/** 2nd Buttom Start **/
+.project_textarea1 ul{
+    margin:0;
+    padding:0;
+}
+.project_textarea1 ul li{
+    list-style:none;
+    display:inline-block;
+}
+.project_textarea1 ul li a{
+    position: relative;
+    margin-right:14px;
+    display:block;
+    color:#fff;
+    width:176px;
+    height:44px;
+    background-color:#195ba9;
+    line-height:44px;
+    text-align:center;
+}
+.project_textarea1 ul li a:hover{
+    text-decoration:none;
+}
+.project_textarea1 ul li a:after{
+    background: #195ba9 none repeat scroll 0 0;
+    content: "";
+    height: 44px;
+    left: 170px;
+    line-height: 44px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transform: skewX(-15deg);
+    width: 15px;
+}
+/** 2nd Buttom End **/
+/** 1st+2nd Buttom Both style **/
+.custom_img > img {
+    height: 14px;
+    width: 20px;
+}
+.custom_img{
+    position:relative;
+    width: 33px;
+    height: 44px;
+    background: #569ff6;
+    line-height: 44px;
+    text-align: center;
+}
+.custom_img::after {
+    background: #569ff6 none repeat scroll 0 0;
+    content: "";
+    height: 44px;
+    left: -6px;
+    line-height: 44px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transform: skewX(-15deg);
+    width: 15px;
+}
+.project_textarea ul li a:hover{
+    text-decoration:none;
+}
+/** 1st+2nd Buttom Both style **/
+/**=====>>>>> Creative Buttom Effect Start <<<<<=====**/
+/*****===== | project_area Start | =====*****/
+
+
+/*****===== | w3text_area Start | =====*****/
+.w3text_textarea{
+    text-align:center;
+    margin-bottom:60px;
+}
+.w3text_textarea h1{
+    position:relative;
+    font-size:30px;
+    margin:50px 0px 90px;
+}
+.w3text_textarea h1:after{
+    content:"";
+    position:absolute;
+    top:71px;
+    left:41%;
+    width:200px;
+    height:5px;
+    background-color:#ebebeb;
+}
+.w3text_textarea p{
+    font-size:16px;
+}
+/*****===== | w3text_area Start | =====*****/
+
+/*****===== | today_area Start | =====*****/
+.today_area{
+    width:100%;
+    height:90px;
+    background-color:#f4f4f4;
+}
+.today_textarea{
+    text-align:center;
+}
+.today_textarea ul{
+    margin:0;
+    padding:0;
+}
+.today_textarea ul li{
+    display:inline-block;
+    list-style:none;
+}
+.today_textarea ul li a{
+    padding-top:20px;
+    display:block;
+    color:#000;
+    font-size:28px;
+    margin-left:30px;
+}
+.today_textarea ul li a span{
+    font-weight:700;
+}
+.today_textarea ul li a:hover{
+    text-decoration:none;
+}
+/*****===== | today_area Start | =====*****/
+
+/*****===== | From_area Start | =====*****/
+/*==========>>>>> 1st Section <<<<<==========*/
+.form_area{
+    width:100%;
+    height:676px;
+    background-color:#f6bd56;
+    overflow:hidden;
+}
+.form_textarea{
+    position:relative;
+    padding-top:114px;
+    text-align:center;
+}
+.form_textarea:after{
+    content: "";
+    position: absolute;
+    top: -33px;
+    left: 11%;
+    width: 445px;
+    height: 60px;
+    background-color: #f4f4f4;
+    transform: rotate(6.7deg);
+}
+.form_textarea::before {
+    content: "";
+    position: absolute;
+    top: -33px;
+    left: 49%;
+    width: 445px;
+    height: 60px;
+    background-color: #f4f4f4;
+    transform: rotate(-6.7deg);
+}
+.form_textarea h2{
+    position:relative;
+    font-size:36px;
+    text-transform:uppercase;
+    color:#000;
+    font-style:bold;
+}
+.form_textarea h2:after{
+    content:"";
+    position:absolute;
+    top:72px;
+    left:40.8%;
+    width:205px;
+    height:6px;
+    background-color:#a46f0e;
+}
+.form_textarea span{
+    margin:67px 0px 60px;
+    display:block;
+    color:#000;
+    font-size:18px;
+    width:100%;
+}
+.form-control {
+    border-radius:1px;
+    height:42px;
+    box-shadow: 0 0 0;
+    border: 1px solid #fff;
+}
+.from_option textarea {
+    height: 155.4px;
+}
+
+/*==========>>>>> 2nd Section <<<<<==========*/
+.option {
+    margin: 0 80px;
+    width: 77.5%;
+}
+.button_eff{
+    margin: 25px 0px 0px 65px;
+    display: block;
+}
+.button_inner{
+    margin-right:30px;
+    display:block;
+}
+.button_inner ul{
+    margin:0;
+    padding:0;
+}
+.button_inner ul li{
+    list-style:none;
+    display:inline-block;
+}
+.button_inner ul li a{
+    display:block;
+    width:666px;
+    height:44px;
+    background-color:#a46f0e;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:15px;
+    color:#fff;
+    line-height:44px;
+    font-style:bold;
+    font-weight:700;
+}
+.button_inner ul li a:hover{
+    text-decoration:none;
+}
+.button_inner ul li a:focus{
+    text-decoration:none;
+}
+
+/*==========>>>>> 3rd Section <<<<<==========*/
+.contact_group a{
+    display:block;
+    color:#a46f0e;
+    margin:0px 0px 15px 10px;
+}
+.fa.fa-mobile.fa-5x {
+    margin-top: -10px;
+}
+.fa.fa-envelope.fa-5x {
+    font-size: 50px;
+    margin-left: -8px;
+}
+.fa.fa-map-marker.fa-5x {
+    font-size: 60px;
+}
+.contact_group{
+    width:20%;
+    float:left;
+}
+.contact_group i{
+    transition:all .7s ease;
+}
+.contact_group i:hover{
+    color:#000;
+}
+.contact_group1 span{
+    font-size:30px;
+}
+#custom_fontsize1{
+    font-size:28px;
+}
+.contact_group1 a{
+    display:block;
+    margin-bottom:35px;
+    color:#000;
+    transition:all .25s ease;
+}
+.contact_group1 a:hover{
+    color:#a46f0e;
+}
+.contact_group1 a:hover{
+   text-decoration:none;
+}
+#custom_fontsize{
+    font-size:27px;
+}
+contact_group1{
+    width:20%;
+    float:left;
+}
+/*****===== | From_area End | =====*****/
+
+/*****===== | copyright_area Start | =====*****/
+.copyright_area{
+    width:100%;
+    height:138px;
+    background-color:#18191a;
+}
+.copyright_textarea{
+    padding:44px 0px 10px;
+    text-align:center;
+    font-size:20px;
+}
+.copyright_textarea p{
+    color:#966610;
+}
+/*****===== | copyright_area End | =====*****/
+
+/*****===== | footer_area start | =====*****/
+.footer_area{
+    width:100%;
+    height:54px;
+    background-color:#303132;
+}
+.footer_textarea{
+    text-align:center;
+}
+.footer_textarea p{
+    margin:0;
+    padding-top:13px;
+    color:#c1c0c0;
+    font-size:22px;
+}
+.footer_textarea a{
+    color:#c1c0c0;
+    text-transform:capitalize;
+    text-decoration:underline;
+    transition:all .25s ease;
+}
+.footer_textarea a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+/*****===== | footer_area End | =====*****/
